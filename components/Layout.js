@@ -10,6 +10,7 @@ export default function Layout({ children }) {
           <Link href="/register">Register</Link>
           <Link href="/login">Login</Link>
           <Link href="/dashboard">Dashboard</Link>
+              <Link href="/client">Frontend Quiz</Link>
         </nav>
       </header>
       <main>{children}</main>
